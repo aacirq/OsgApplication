@@ -1,0 +1,12 @@
+{
+    "cmake.useCMakePresets": "never",
+    "cmake.configureOnOpen": false,
+    "cmake.configureOnEdit": false,
+    "cmake.generator": "Visual Studio 16 2019",
+    "cmake.cmakePath": "C:/Program Files/CMake/bin/cmake.exe",
+    "cmake.configureSettings": {
+        "OSG_INCLUDE": "D:/02-Code/OpenSceneGraph/OpenSceneGraph/include",
+        "OSG_BUILD_INCLUDE": "D:/02-Code/OpenSceneGraph/OpenSceneGraph/build/include",
+        "OSG_BUILD_LIB": "D:/02-Code/OpenSceneGraph/OpenSceneGraph/build/lib"
+    }
+}
