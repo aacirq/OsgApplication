@@ -8,5 +8,11 @@
         "OSG_INCLUDE": "D:/02-Code/OpenSceneGraph/OpenSceneGraph/include",
         "OSG_BUILD_INCLUDE": "D:/02-Code/OpenSceneGraph/OpenSceneGraph/build/include",
         "OSG_BUILD_LIB": "D:/02-Code/OpenSceneGraph/OpenSceneGraph/build/lib"
+    },
+    "files.associations": {
+        "*.m": "matlab",
+        "*.h.in": "cmake",
+        "ref_ptr": "cpp",
+        "vec3f": "cpp"
     }
 }

@@ -37,14 +37,10 @@ function(add_app EXE_NAME)
     set(OSG_INCLUDE_PATHS
         ${OSG_BUILD_INCLUDE}
         ${OSG_INCLUDE})
-    # set(OSG_INCLUDE_PATHS
-    #     "D:\\02-Code\\OpenSceneGraph\\OpenSceneGraph\\build\\include"
-    #     "D:\\02-Code\\OpenSceneGraph\\OpenSceneGraph\\include")
 
     target_include_directories(${EXE_NAME} PRIVATE ${OSG_INCLUDE_PATHS})
 
     target_link_directories(${EXE_NAME} PRIVATE ${OSG_BUILD_LIB})
-    # target_link_directories(${EXE_NAME} PRIVATE "D:\\02-Code\\OpenSceneGraph\\OpenSceneGraph\\build\\lib")
 
     set(OSG_LIBRARYS
         debug osgd optimized osg
@@ -62,3 +58,5 @@ endfunction(add_app)
 
 # applications
 add_subdirectory(osgMini)
+add_subdirectory(osgBillboard)
+add_subdirectory(osgGeometry)
