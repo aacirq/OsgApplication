@@ -60,3 +60,6 @@ endfunction(add_app)
 add_subdirectory(osgMini)
 add_subdirectory(osgBillboard)
 add_subdirectory(osgGeometry)
+
+# opengl
+add_subdirectory(openglPractice)

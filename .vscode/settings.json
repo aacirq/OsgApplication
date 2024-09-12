@@ -7,7 +7,11 @@
     "cmake.configureSettings": {
         "OSG_INCLUDE": "D:/02-Code/OpenSceneGraph/OpenSceneGraph/include",
         "OSG_BUILD_INCLUDE": "D:/02-Code/OpenSceneGraph/OpenSceneGraph/build/include",
-        "OSG_BUILD_LIB": "D:/02-Code/OpenSceneGraph/OpenSceneGraph/build/lib"
+        "OSG_BUILD_LIB": "D:/02-Code/OpenSceneGraph/OpenSceneGraph/build/lib",
+        "GLAD_INCLUDE_PATH": "D:/02-Code/3rdparty/glad/include",
+        "GLAD_SOURCE_PATH": "D:/02-Code/3rdparty/glad/src",
+        "GLFW_INCLUDE_PATH": "D:/02-Code/3rdparty/glfw3.4/include",
+        "GLFW_LIB_PATH": "D:/02-Code/3rdparty/glfw3.4/libs/debug"
     },
     "files.associations": {
         "*.m": "matlab",
