@@ -17,6 +17,15 @@
         "*.m": "matlab",
         "*.h.in": "cmake",
         "ref_ptr": "cpp",
-        "vec3f": "cpp"
+        "vec3f": "cpp",
+        "graphicswindow": "cpp",
+        "standardmanipulator": "cpp",
+        "view": "cpp",
+        "multitouchtrackballmanipulator": "cpp",
+        "array": "cpp",
+        "geometry": "cpp",
+        "referenced": "cpp",
+        "viewereventhandlers": "cpp",
+        "graphicscontext": "cpp"
     }
 }
